@@ -13,7 +13,7 @@
 <script>
 var map = L.map('map').setView([37.875, -122.26], 16);
 mapLink = '<a href="http://openstreetmap.org”>OpenStreetMap</a>"';
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' { attribution: 'Map data &copy; + mapLink,
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' { attribution: 'Map data &copy; ' + mapLink,
 minZoom: 12,
         maxZoom: 18
       }).addTo(map);
